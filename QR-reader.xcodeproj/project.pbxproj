@@ -13,6 +13,7 @@
 		46B469262546715E00226E59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B469242546715E00226E59 /* Main.storyboard */; };
 		46B469282546716000226E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46B469272546716000226E59 /* Assets.xcassets */; };
 		46B4692B2546716000226E59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B469292546716000226E59 /* LaunchScreen.storyboard */; };
+		46B469362546718200226E59 /* MyQRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B469352546718200226E59 /* MyQRCodeReader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		46B469272546716000226E59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46B4692A2546716000226E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46B4692C2546716000226E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B469352546718200226E59 /* MyQRCodeReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyQRCodeReader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				46B4691E2546715E00226E59 /* AppDelegate.swift */,
 				46B469202546715E00226E59 /* SceneDelegate.swift */,
 				46B469222546715E00226E59 /* ViewController.swift */,
+				46B469352546718200226E59 /* MyQRCodeReader.swift */,
 				46B469242546715E00226E59 /* Main.storyboard */,
 				46B469272546716000226E59 /* Assets.xcassets */,
 				46B469292546716000226E59 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				46B469232546715E00226E59 /* ViewController.swift in Sources */,
 				46B4691F2546715E00226E59 /* AppDelegate.swift in Sources */,
+				46B469362546718200226E59 /* MyQRCodeReader.swift in Sources */,
 				46B469212546715E00226E59 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -293,10 +297,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.osakamiseri.QR-reader.QR-reader";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.osakamiseri.QR-reader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,10 +316,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.osakamiseri.QR-reader.QR-reader";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.osakamiseri.QR-reader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
